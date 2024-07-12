@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JókenPô</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-box">
+
+        <h1>JókenPô &#x270A;</h1>
+
+        <div class="buttons">
+
+            <button id="rock" onclick=" playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick=" playHuman('paper')">&#x1F91A;</button>
+            <button id="scissors" onclick=" playHuman('scissors')">&#x270C;</button>
+
+        </div>
+        
+        <p class="result"></p>
+
+        <p class="he-score"><b>Player 1 &#x1F57A; </b>Points : <span id="human-score">0</span></p>
+        <p class="she-score"><b>Player 2 &#x1F483; </b>Points : <span id="machine-score">0</span></p>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("https://img.freepik.com/vetores-gratis/desenho-abstrato-em-verde-escuro_53876-59276.jpg?t=st=1720660199~exp=1720663799~hmac=7078e22ee58bc41af9c4c798fd4f9f264f7b5fff49dd7b12566f8fef35835861&w=740");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container-box {
+    padding: 20px;
+    background-color: 	#48D1CC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-box h1 {
+    font-size: 40px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+#rock {
+background-color: #FFFFE0;
+}
+
+#paper{
+background-color: #FFFFE0;
+}
+
+#scissors{
+background-color: #FFFFE0;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.he-score span {
+    color: #0000FF;
+}
+
+.she-score span {
+    color: 	#FF0000;
+}
+
+.result {
+    font-size: 27px;
+}
